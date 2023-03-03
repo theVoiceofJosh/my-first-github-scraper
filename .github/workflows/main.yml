@@ -15,7 +15,8 @@ jobs:
         python-version: '3.9'
     - run: pip install notebook requests bs4
     - name: Run scraper
-      run: jupyter execute Joshs_first_scraper.ipynb
+      run: jupyter execute Joshs_first_scrape.ipynb
+
     - name: Add and commit
       id: add_commit
       uses: EndBug/add-and-commit@v8
